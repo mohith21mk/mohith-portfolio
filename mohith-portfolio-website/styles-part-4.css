@@ -1,0 +1,110 @@
+  .cert-strip { grid-template-columns: 1fr; gap: 15px; }
+  .experience-layout { grid-template-columns: 1fr; gap: 28px; }
+  .education-card { min-height: 230px; }
+  .timeline { padding-left: 19px; }
+  .timeline-item { grid-template-columns: 65px 1fr; gap: 9px; }
+  .timeline-item::before { left: -23px; }
+  .timeline-item h3 { font-size: 12px; }
+  .timeline-item p { font-size: 10px; }
+  .contact-section { padding-block: 60px 65px; }
+  .contact-top .section-note { display: none; }
+  .contact-layout { grid-template-columns: 1fr; gap: 30px; padding-top: 27px; }
+  .contact-layout h2 { font-size: 47px; }
+  .contact-subtitle { font-size: 11px; }
+  .contact-details { padding-top: 0; }
+  .contact-email { font-size: 17px; }
+  .site-footer { min-height: 68px; font-size: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+
+/* === Portfolio refresh: authentic project imagery and readable information === */
+.primary-nav { font-size: 13px; gap: clamp(14px, 2.2vw, 30px); }
+.hero-intro { font-size: 17px; line-height: 1.8; }
+.hero-socials { font-size: 13px; }
+.quick-facts strong { font-size: 16px; }
+.quick-facts small { font-size: 13px; }
+.fact-label, .eyebrow, .hero-kicker, .section-index { font-size: 11px; }
+.section-note { font-size: 14px; max-width: 330px; }
+.filter-button { font-size: 12px; padding: 8px 15px; }
+.project-card { overflow: hidden; }
+.project-visual.image-visual { position: relative; aspect-ratio: 16 / 9; height: auto; min-height: 0; padding: 0; overflow: hidden; background: #070b13; border-bottom: 1px solid var(--line); }
+.project-image { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.project-visual.book-visual { background: #03050a; }
+.project-image-contain { object-fit: contain; }
+.visual-caption { font-size: 10px; color: rgba(245,248,255,.86); background: rgba(5,10,18,.72); padding: 6px 9px; border-radius: 4px; }
+.project-info { padding: 22px 24px 25px; }
+.project-meta { font-size: 10px; }
+.project-info h3 { font-size: 27px; }
+.project-info p { min-height: 0; font-size: 15px; line-height: 1.75; }
+.tag-list span, .skill-tags span { font-size: 11px; padding: 6px 10px; }
+.project-disclaimer { font-size: 12px; line-height: 1.65; }
+.project-link { font-size: 13px; }
+.project-actions { display: flex; flex-wrap: wrap; gap: 20px; }
+.project-status { display: inline-block; margin-top: 15px; color: var(--quiet); font-size: 12px; line-height: 1.5; }
+.service-card h3 { font-size: 22px; }
+.service-card p { font-size: 14px; line-height: 1.75; }
+.service-links > span { font-size: 10px; }
+.service-links a { font-size: 13px; }
+.about-copy { font-size: 15px; line-height: 1.85; }
+.milestone-item > span { font-size: 12px; }
+.milestone-item p { font-size: 13px; line-height: 1.75; }
+.skill-group h3 { font-size: 21px; }
+.skill-number { font-size: 10px; }
+.education-card h3 { font-size: 17px; }
+.education-card p, .education-location { font-size: 13px; }
+.timeline-year { font-size: 11px; }
+.timeline-item h3 { font-size: 15px; }
+.timeline-item p { font-size: 14px; line-height: 1.7; }
+.contact-subtitle { font-size: 15px; }
+.contact-label, .contact-top .section-note { font-size: 10px; }
+.copy-button, .contact-details > a:not(.contact-email), .contact-socials a { font-size: 13px; }
+.site-footer { font-size: 12px; }
+.contact-secondary-email { margin-top: 5px; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+
+.certifications-section { border-top: 1px solid var(--line); }
+.credential-feature { border: 1px solid rgba(110,199,160,.38); background: linear-gradient(115deg, rgba(39,111,88,.18), rgba(16,26,42,.88)); border-radius: 12px; padding: 25px 28px; margin: 8px 0 28px; }
+.credential-kicker, .credential-issuer { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; color: var(--blue-2); font-weight: 700; }
+.credential-feature .credential-kicker { color: var(--green); }
+.credential-feature h3 { font-size: 24px; margin: 12px 0 5px; }
+.credential-feature p { font-size: 15px; color: var(--muted); margin: 0 0 14px; }
+.credential-type { display: inline-block; font-size: 12px; color: var(--green); border: 1px solid rgba(110,199,160,.28); border-radius: 999px; padding: 5px 9px; }
+.credential-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 15px; margin: 18px 0 14px; }
+.credential-heading h3 { margin: 0; font-size: 20px; }
+.credential-heading span { font: 11px var(--mono); color: var(--quiet); }
+.credential-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 13px; }
+.credential-card { padding: 18px; min-height: 172px; border: 1px solid var(--line); border-radius: 9px; background: rgba(14,22,36,.58); }
+.credential-card h4 { margin: 10px 0 7px; font-size: 16px; line-height: 1.35; }
+.credential-card p { color: var(--muted); font-size: 13px; line-height: 1.6; margin: 0 0 12px; }
+.credential-card .credential-type { font-size: 11px; }
+.credential-note { margin: 18px 0 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+
+body.light-theme .credential-card { background: rgba(255,255,255,.75); }
+body.light-theme .credential-feature { background: linear-gradient(115deg, rgba(39,111,88,.08), rgba(255,255,255,.9)); }
+
+@media (max-width: 900px) {
+  .credential-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 620px) {
+  .primary-nav { font-size: 13px; }
+  .hero-intro { font-size: 15px; }
+  .quick-facts small { font-size: 12px; }
+  .section-note { font-size: 13px; }
+  .project-info { padding: 18px; }
+  .project-info p { font-size: 14px; }
+  .project-meta { font-size: 9px; }
+  .tag-list span, .skill-tags span { font-size: 10px; }
+  .service-card p { font-size: 13px; }
+  .about-copy { font-size: 14px; }
+  .milestone-item p { font-size: 12px; }
+  .timeline-item { grid-template-columns: 70px 1fr; }
+  .timeline-item h3 { font-size: 14px; }
+  .timeline-item p { font-size: 13px; }
+  .credential-grid { grid-template-columns: 1fr; }
+  .credential-card { min-height: 0; }
+  .credential-feature { padding: 20px; }
+  .credential-feature h3 { font-size: 21px; }
+  .project-actions { gap: 10px 16px; }
+}
