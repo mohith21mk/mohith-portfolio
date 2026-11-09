@@ -6,7 +6,7 @@
   const scrollProgress = document.getElementById('scrollProgress');
   const copyButton = document.getElementById('copyEmail');
   const copyStatus = document.getElementById('copyStatus');
-  const email = 'kmoh.csbs2024@rmd.ac.in';
+  const email = 'mohith.mk96@gmail.com';
 
   // Restore the visitor's preferred theme when possible.
   try {
